@@ -5,18 +5,7 @@ The project combines fast HTTP-based HTML parsing with headless browser automati
 
 ---
 
-## 🚀 Key Features
-
-- **Custom Django Management Commands:** Execute scraping and validation workflows directly from the terminal.
-- **Dual Scraping Strategy:**
-  - Beautiful Soup 4 for fast HTML parsing.
-  - Playwright for browser-based inspection of dynamically rendered content.
-- **Content Validation:** Extract and validate webpage titles and H1 headings.
-- **Database Integration:** Store scraping results, validation outcomes, audit information, and status flags such as `title_passed`.
--
----
-
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Technologies |
 |---|---|
@@ -28,7 +17,7 @@ The project combines fast HTTP-based HTML parsing with headless browser automati
 
 
 
-## ⚙️ Installation & Setup Guide
+##  Installation & Setup Guide
 
 ### 1. Clone the Repository
 
@@ -125,7 +114,7 @@ python manage.py runserver
 
 ---
 
-## 🔄 Running the Scraping Pipeline
+## Running the Scraping Pipeline
 
 The project provides two separate Django management commands.
 
@@ -142,7 +131,7 @@ python manage.py scrape_with_playwright
 
 ---
 
-## 📁 Project Execution Order
+## Project Execution Order
 
 ```text
                  Target Websites
