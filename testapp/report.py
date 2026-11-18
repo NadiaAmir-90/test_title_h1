@@ -4,7 +4,8 @@ from config import REPORT_DIR
 def generate_csv(results):
     """generate a csv report from parse data"""
     
-    csv_file=REPORT_DIR/"results.csv"
+    # csv_file=REPORT_DIR/"results.csv"
+    csv_file=REPORT_DIR/"books_results.csv"
 
     # define the csv file column
     fieldnames = [

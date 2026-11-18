@@ -1,0 +1,15 @@
+{
+    "books_to_scrape":{
+        "homepage":{
+            "all_categories":"//*[@id=\"default\"]/div/div/div/aside/div[2]"
+        },
+        "category_pages":{
+            "allbook_container":"/html/body/div/div/div/aside/div[2]/ul/li/ul/li",
+            "book_url":"/html/body/header/div/div/div",
+            "next_url":"/html/body/div/div/div/div/section/div[2]/div/ul/li[2]/a"
+
+        }
+        
+
+    }
+}

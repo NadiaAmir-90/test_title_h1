@@ -22,6 +22,9 @@ WEBSITES = {
     "rentbyowner": os.getenv("RENTBYOWNER_URL"),
     "hotala": os.getenv("HOTALA_URL"),
 }
+BOOKS_WEBSITE={
+    "books_to_scrape":os.getenv("BOOK_URL"),
+}
 
 WEBSITES_URLS = [
     url.strip()
