@@ -1,0 +1,7 @@
+Django
+beautifulsoup4
+lxml
+requests
+python-dotenv
+playwright
+chromium
